@@ -3,6 +3,8 @@
 	<name>HomeDevelopment</name>
 	<comment></comment>
 	<projects>
+		<project>CSVSplitter</project>
+		<project>SubsResynchronize</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>
