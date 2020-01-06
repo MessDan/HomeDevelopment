@@ -1,0 +1,9 @@
+
+[14:22:19] - L'utente n.(3): Neri Franco ha effettuato l'accesso attraverso il varco n.(2): Presidenza
+_______________________________________________________________________________________________________________________
+
+[14:23:07] - L'utente n.(3): Neri Franco ha effettuato l'accesso attraverso il varco n.(3): Studio Rossi
+_______________________________________________________________________________________________________________________
+
+[16:25:57] - L'utente n.(3): Neri Franco ha effettuato l'accesso attraverso il varco n.(3): Studio Rossi
+_______________________________________________________________________________________________________________________

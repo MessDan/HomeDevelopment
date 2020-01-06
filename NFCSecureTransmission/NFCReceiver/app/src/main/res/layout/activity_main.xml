@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/TextToken"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Codice ricevuto: "
+        android:textSize="20dp"
+    />
+
+    <TextView
+        android:id="@+id/Token"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/TextToken"
+        android:hint="IMEII"
+        android:textSize="20dp"
+    />
+
+    <TextView
+        android:id="@+id/IMEIIMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextToken"
+        android:layout_marginTop="20dp"
+        android:text="C. Dispositivo: "
+        android:textSize="20dp"
+    />
+
+    <EditText
+        android:id="@+id/IMEIIMain"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/IMEIIMainText"
+        android:layout_below="@id/TextToken"
+        android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:id="@+id/CityMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/IMEIIMainText"
+        android:layout_marginTop="20dp"
+        android:text="Città: "
+        android:textSize="20dp"
+    />
+
+    <EditText
+        android:id="@+id/CityMain"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/CityMainText"
+        android:layout_below="@id/IMEIIMainText"
+        android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:id="@+id/LocationMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CityMain"
+        android:layout_marginTop="20dp"
+        android:text="Luogo: "
+        android:textSize="20dp"
+    />
+
+    <EditText
+        android:id="@+id/LocationMain"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/LocationMainText"
+        android:layout_below="@id/CityMain"
+        android:layout_marginTop="10dp"
+    />
+
+    <TextView
+        android:id="@+id/AccessText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LocationMain"
+        android:layout_marginTop="20dp"
+        android:text="Accesso: "
+        android:textSize="20dp"
+    />
+
+    <EditText
+        android:id="@+id/AccessMain"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LocationMain"
+        android:layout_toEndOf="@id/AccessText"
+        android:layout_marginTop="10dp"
+    />
+
+    <Button
+        android:id="@+id/SendCode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Invia codice dispositivo"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/SendAccess"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/SendCode"
+        android:layout_centerHorizontal="true"
+        android:text="Verifica dati d'Accesso"
+        android:textSize="25dp"
+    />
+
+    <TextView
+        android:id="@+id/IPServerMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/SendAccess"
+        android:layout_marginBottom="40dp"
+        android:text="IP Server: "
+        android:textSize="20dp"
+    />
+
+    <EditText
+        android:id="@+id/IPServerMain"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/SendAccess"
+        android:layout_toEndOf="@id/IPServerMainText"
+        android:layout_marginBottom="40dp"
+    />
+</RelativeLayout>

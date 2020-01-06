@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="NFCReceiver/app/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="NFCReceiver/app/build/generated/source/buildConfig/release"/>
+	<classpathentry kind="src" path="NFCReceiver/app/build/generated/source/buildConfig/test/debug"/>
+	<classpathentry kind="src" path="NFCReceiver/app/build/generated/source/r/debug"/>
+	<classpathentry kind="src" path="NFCReceiver/app/build/generated/source/r/release"/>
+	<classpathentry kind="src" path="NFCReceiver/app/src/androidTest/java"/>
+	<classpathentry kind="src" path="NFCReceiver/app/src/main/java"/>
+	<classpathentry kind="src" path="NFCSecureTransmission_Server/src"/>
+	<classpathentry kind="src" path="NFCSecureTransmission/app/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="NFCSecureTransmission/app/build/generated/source/buildConfig/test/debug"/>
+	<classpathentry kind="src" path="NFCSecureTransmission/app/build/generated/source/r/debug"/>
+	<classpathentry kind="src" path="NFCSecureTransmission/app/src/androidTest/java"/>
+	<classpathentry kind="src" path="NFCSecureTransmission/app/src/main/java"/>
+	<classpathentry kind="src" path="NFCSecureTransmition_GUI/src"/>
+	<classpathentry kind="lib" path="NFCReceiver/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="NFCSecureTransmission_Server/dist/lib/mysql-connector-java-5.1.23-bin.jar"/>
+	<classpathentry kind="lib" path="NFCSecureTransmission_Server/dist/NFCSecureTransmission_Server.jar"/>
+	<classpathentry kind="lib" path="NFCSecureTransmission/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="NFCSecureTransmition_GUI/dist/lib/mysql-connector-java-5.1.23-bin.jar"/>
+	<classpathentry kind="lib" path="NFCSecureTransmition_GUI/dist/NFCSecureTransmission_GUI.jar"/>
+	<classpathentry kind="lib" path="NFCSecureTransmition_GUI/mysql-connector-java-5.1.23-bin.jar"/>
+	<classpathentry kind="output" path="NFCReceiver/app/build/intermediates/classes/debug"/>
+</classpath>

@@ -1,0 +1,2 @@
+nfcsecuretransmission_server.Group
+nfcsecuretransmission_server.Grp_Manager
